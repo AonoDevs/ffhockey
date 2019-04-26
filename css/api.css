@@ -173,6 +173,7 @@ footer img{
 	right: 0;
 	z-index: 1;
 	opacity: 0.3;
+    max-width: 100%;
 }
 #forme_2{
 	position: absolute;
@@ -180,6 +181,7 @@ footer img{
 	right: 0;
 	z-index: 1;
 	opacity: 0.3;
+    max-width: 100%;
 }
 #forme_3{
 	position: absolute;
@@ -187,6 +189,7 @@ footer img{
 	right: 0;
 	z-index: 1;
 	opacity: 0.3;
+    max-width: 100%;
 }
 #forme_4{
 	position: absolute;
@@ -194,13 +197,14 @@ footer img{
 	left: 0;
 	z-index: 1;
 	opacity: 0.3;
+    max-width: 100%;
 }
 #forme_5{
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	z-index: 1;
-	
+    max-width: 100%;
 }
 
 #mobile-alert{
