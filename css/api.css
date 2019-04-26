@@ -210,9 +210,10 @@ footer img{
 
 @media screen and (max-width: 1024px) {
 
-body{
+main{
     overflow: hidden;
 }
+
 
 #mobile-alert{
 	display: block;
