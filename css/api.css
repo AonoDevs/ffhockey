@@ -1,0 +1,222 @@
+@font-face {
+    font-family: "Grotesque-reg";
+    src: url('../font/Brandon_reg.otf');
+}
+@font-face {
+    font-family: "Grotesque-med";
+    src: url('../font/Brandon_med.otf');
+}
+@font-face {
+    font-family: "Grotesque-bld";
+    src: url('../font/Brandon_bld.otf');
+}
+@font-face {
+    font-family: "Grotesque-blk";
+    src: url('../font/Brandon_blk.otf');
+}
+@font-face {
+    font-family: "Grotesque-blk-it";
+    src: url('../font/Brandon_blk_it.otf');
+}
+
+/*reset CSS*/
+*{
+	box-sizing: border-box;
+}
+
+body{
+    /*sélecteur, propriété, valeur*/
+    font: 16px "Grotesque-reg"; /*px, em, rem; 16px*62.5 : 1rem*/
+    margin: 0;
+    position: relative;
+    background-color: #004299;
+	
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 100;
+}
+
+
+
+a,abbr {
+    text-decoration: none;
+}
+a{
+    color: #222;
+}
+
+ul{
+    list-style: none;
+}
+
+section:nth-child(1){
+	background: url(../img/api/fond-api.jpg) no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	padding: 50px 50px;
+	height: 100vh;
+	text-align: center;
+	
+}
+
+section:nth-child(1) div:nth-child(1){
+	text-align: initial;
+}
+
+section:nth-child(1) div:nth-child(1) img{
+	width: 8%;
+}
+
+section:nth-child(1) > img{
+	width: 32%;
+	margin-top: 50px;
+	margin-bottom: 100px; 
+}
+
+section:nth-child(1) > div:nth-child(3){	
+	display: flex;
+	align-items: center; 
+	max-width: 800px;
+	margin:auto;
+	margin-top: 50px;
+}
+
+section:nth-child(1) p{
+	font-family: "Grotesque-bld";
+	color: #ffffff;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+section:nth-child(2) {
+	background: linear-gradient(#004299, #4784c2, #fafbfd );
+	height: 2500px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+
+section > iframe {
+	width: 80%;
+	position: absolute;
+	z-index: 3;
+	margin: auto;
+	background-color: #fff;
+
+}
+
+footer{
+	background-color: #eeeeee;
+	padding: 30px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	width: 100%;
+}
+
+#flag {
+	width: 150px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#flag div{
+	width: 50px;
+	height: 5px;
+}
+
+#flag div:nth-child(1){
+	background-color: #097af9;
+}
+
+#flag div:nth-child(2){
+	background-color: #f70029;
+}
+
+
+footer p {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	color: #919191;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+
+footer img{
+	width: 240px;
+}
+
+
+
+
+#forme_1{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	opacity: 0.3;
+}
+#forme_2{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	opacity: 0.3;
+}
+#forme_3{
+	position: absolute;
+	top: -100px;
+	right: 0;
+	z-index: 1;
+	opacity: 0.3;
+}
+#forme_4{
+	position: absolute;
+	top: 400px;
+	left: 0;
+	z-index: 1;
+	opacity: 0.3;
+}
+#forme_5{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	
+}
+
+
+@media screen and (max-width: 1024px) {
+
+ 
+#mobile-alert{
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 4;
+	background: url(../img/fond-mobile.jpg) center center / cover;
+}
+  
+ }
+

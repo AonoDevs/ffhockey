@@ -1,0 +1,297 @@
+@font-face {
+    font-family: "Grotesque-reg";
+    src: url('../font/Brandon_reg.otf');
+}
+@font-face {
+    font-family: "Grotesque-med";
+    src: url('../font/Brandon_med.otf');
+}
+@font-face {
+    font-family: "Grotesque-bld";
+    src: url('../font/Brandon_bld.otf');
+}
+@font-face {
+    font-family: "Grotesque-blk";
+    src: url('../font/Brandon_blk.otf');
+}
+@font-face {
+    font-family: "Grotesque-blk-it";
+    src: url('../font/Brandon_blk_it.otf');
+}
+
+/*reset CSS*/
+*{
+	box-sizing: border-box;
+}
+
+body{
+    /*sélecteur, propriété, valeur*/
+    font: 16px "Grotesque-reg"; /*px, em, rem; 16px*62.5 : 1rem*/
+    margin: 0;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 100;
+}
+
+
+
+a,abbr {
+    text-decoration: none;
+}
+a{
+    color: #222;
+}
+
+ul{
+    list-style: none;
+}
+
+section:nth-child(1){
+	background: url(../img/home/fond-team.jpg) center center / cover;
+	padding: 50px 50px;
+	text-align: center;
+	height: 100vh
+}
+
+section:nth-child(1) div:nth-child(1){
+	text-align: initial;
+}
+
+section:nth-child(1) div:nth-child(1) img{
+	width: 8%;
+}
+
+section:nth-child(1) > img{
+	width: 32%;
+	margin-top: 50px;
+	margin-bottom: 100px; 
+}
+
+section:nth-child(1) > div:nth-child(3){	
+	display: flex;
+	align-items: center; 
+	max-width: 800px;
+	margin:auto;
+	margin-top: 50px;
+}
+
+#scroll {
+	width: 30px;
+	margin: 0 30px;
+}
+
+.scroll-text{
+	font-size: 25px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.scroll-text strong {
+	font-family: "Grotesque-bld";
+
+}
+
+section:nth-child(2){
+	text-align: center;
+	margin:50px 0;
+}
+
+section:nth-child(2) p{
+	font-family: "Grotesque-bld";
+	font-size: 27px;
+	width: 53%;
+	color: #001f42;
+	margin: 15px auto;
+}
+
+section:nth-child(2) a{
+	font-family: "Grotesque-bld";
+	background-color: #e70e2f;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 15px 35px;
+	border-radius: 35px;
+	font-size: 27px;
+	width: 434px;
+	display: block;
+	margin: 40px auto;
+	line-height: 32px;
+}
+
+
+section:nth-child(3){
+	height: 100vh;
+	background: url(../img/home/fond-stat.jpg) center center / cover;
+	display: flex;
+	justify-content: space-between;
+	padding: 10% 5%;
+	position: relative;
+}
+
+
+
+#stat {
+	font-family: "Grotesque-blk-it";
+	text-transform: uppercase;
+	color: #ffffff;
+	width: 50%;
+}
+
+#stat p:nth-child(1){
+	font-size: 55px;
+}
+
+#stat p:nth-child(2){
+	font-size: 112px;
+	line-height: 64px;
+}
+
+#stat > p:nth-child(3){
+	font-size: 60px;
+}
+
+#stat > p:nth-child(4){
+	font-size: 30px;
+	margin-top: 54px;
+}
+
+
+#icone {
+	width: 42%;
+	display: grid;
+  	grid-template-columns: repeat(2, 1fr);
+  	grid-gap: 10px;
+}
+
+#icone figure {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Grotesque-med";
+}
+
+#icone figure figcaption {
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+
+#balle-front{
+	background: url(../img/home/balle-front.png) center center / cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+section:nth-child(4){
+	padding: 7% 0;
+}
+
+
+#cont-logo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 33%;
+	margin: auto;
+}
+
+
+#barre-bleue{
+	width: 2px;
+	height: 120px;
+	background-color: #133f71;
+}
+
+#cont-logo img:nth-child(1){
+	width: 45%;
+}
+
+#cont-logo img:nth-child(3){
+	width: 25%;
+}
+
+
+section:nth-child(4) p{
+	width: 68%;
+	color: #001f42;
+	font-size: 30px;
+	margin: 8% auto;
+	text-align: center;
+}
+
+section:nth-child(4) p strong{
+	font-family: "Grotesque-bld";
+}
+
+footer{
+	background-color: #eeeeee;
+	padding: 30px;
+	text-align: center;
+}
+
+#flag {
+	width: 150px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#flag div{
+	width: 50px;
+	height: 5px;
+}
+
+#flag div:nth-child(1){
+	background-color: #097af9;
+}
+
+#flag div:nth-child(2){
+	background-color: #f70029;
+}
+
+
+footer p {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	color: #919191;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+footer img{
+	width: 240px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+ 
+#mobile-alert{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 4;
+	background: url(../img/fond-mobile.jpg) center center / cover;
+}
+  
+ }
+
