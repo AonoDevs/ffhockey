@@ -279,7 +279,9 @@ footer img{
 	width: 240px;
 }
 
-
+#mobile-alert{
+    display:none;
+}
 
 @media screen and (max-width: 1024px) {
  
