@@ -279,26 +279,93 @@ footer img{
 	width: 240px;
 }
 
-#mobile-alert{
-    display:none;
+main{
+	overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
 
-	main{
-		overflow: hidden;
+	section:nth-child(1) div:nth-child(1) img{
+		width: 17%;
 	}
 
-#mobile-alert{
-	display: block;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100vh;
-	z-index: 4;
-	background: url(../img/fond-mobile.jpg) center center / cover;
+	section:nth-child(3){
+		flex-direction: column;
+		padding: 5% 5%;
+		background: url(../img/home/fond-mobile-rouge.jpg) center center / cover;
+
+	}
+
+	#icone {
+		width: 100%;
+		grid-template-columns: repeat(4, 1fr);
+		margin-top: 100px;
+	}
+
+	#icone figure{
+		margin: 0;
+	}
+
+	#stat {
+		width: 100%;
+	}
+
+	#balle-front{
+		background: url(../img/home/balle-front.png) no-repeat;
+		background-position-y: -44px;
+		background-size: 100%;
+	}
+
+	section:nth-child(1) > img{
+		width: 60%;
+	}
+
+	#scroll {
+		width: 40px;
+	}
+
 }
-  
- }
+
+@media screen and (max-width: 450px) {
+
+	section:nth-child(1) div:nth-child(1) img{
+		width: 24%;
+	}
+
+	section:nth-child(1) > img{
+		width: 80%;
+	}
+
+	section:nth-child(1) > div:nth-child(3){
+		flex-direction: column;
+	}
+
+	section:nth-child(2) p{
+		width: 85%;
+	}
+
+	section:nth-child(2) a{
+		font-size: 20px;
+		width: 85%;
+	}
+
+	#icone {
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	#icone figure{
+		margin: 20px 0;
+	}
+
+	#cont-logo{
+		width: 70%;
+	}
+
+	section:nth-child(4) p{
+		width: 85%;
+	}
+}
+
 
