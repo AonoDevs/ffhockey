@@ -111,12 +111,21 @@ section:nth-child(2) {
 	padding-top: 100px;
 }
 
-section > iframe {
+#scroll-div{
+	overflow:auto;
+	-webkit-overflow-scrolling:touch;
+	width: 100%;
+	display:flex;
+	justify-content: center;
+}
+
+section > div > iframe {
 	width: 80%;
 	position: absolute;
 	z-index: 3;
 	margin: auto;
 	background-color: #fff;
+	margin: auto;
 
 }
 
@@ -159,6 +168,7 @@ footer p {
 	margin-top: 20px;
 	margin-bottom: 15px;
 }
+
 
 
 footer img{
