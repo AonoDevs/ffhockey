@@ -115,7 +115,7 @@ section:nth-child(2) {
 	overflow:auto;
 	-webkit-overflow-scrolling:touch;
 	width: 80%;
-	height: 72%;
+	height: 95vh;
 	margin: auto;
 	display:flex;
 	justify-content: center;
