@@ -117,6 +117,7 @@ section > iframe {
 	z-index: 3;
 	margin: auto;
 	background-color: #fff;
+    overflow: scroll;
 
 }
 
