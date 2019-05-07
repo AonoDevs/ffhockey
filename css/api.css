@@ -283,6 +283,9 @@ main{
  }
 
 @media screen and (max-width: 450px) {
+	body{
+		margin-bottom: 70px;
+	}
 	#billetterie{
 		position: fixed;
 	    bottom: 0;
