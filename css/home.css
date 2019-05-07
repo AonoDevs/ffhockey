@@ -59,6 +59,34 @@ ul{
     list-style: none;
 }
 
+
+#billetterie{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	margin: 0;
+	font-family: "Grotesque-bld";
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#billetterie a{
+	display: block;
+	width: 8%;
+	margin-left: auto;
+	text-align: center;
+}
+
+#billetterie a figcaption {
+	color: #fff;
+}
+
+#billetterie a img{
+	width: 100%;
+}
+
 section:nth-child(1){
 	background: url(../img/home/fond-team.jpg) center center / cover;
 	padding: 50px 50px;
@@ -285,6 +313,11 @@ main{
 
 @media screen and (max-width: 1024px) {
 
+	#billetterie a{
+	width: 15%;
+	}
+
+
 	section:nth-child(1) div:nth-child(1) img{
 		width: 17%;
 	}
@@ -327,6 +360,11 @@ main{
 }
 
 @media screen and (max-width: 450px) {
+
+
+	#billetterie a{
+		width: 21%;
+	}
 
 	#stat p:nth-child(1){
 		font-size: 40px;

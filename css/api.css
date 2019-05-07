@@ -62,6 +62,40 @@ ul{
     list-style: none;
 }
 
+#billetterie{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	margin: 0;
+	font-family: "Grotesque-bld";
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	z-index: 100;
+	text-align: end;
+}
+
+#billetterie a{
+	display: inline-block;
+	width: 8%;
+	margin-left: auto;
+	text-align: center;
+	cursor: pointer;
+}
+
+#billetterie a:first-child{
+	margin-right: 15px;
+}
+
+#billetterie a figcaption {
+	color: #fff;
+}
+
+#billetterie a img{
+	width: 100%;
+}
+
 section:nth-child(1){
 	background: url(../img/api/fond-api.jpg) no-repeat;
 	background-position: bottom;
@@ -220,6 +254,9 @@ main{
 
 
 @media screen and (max-width: 1024px) {
+	#billetterie a{
+		width: 15%;
+	}
 
 	section:nth-child(1) > img{
 		width: 60%;
@@ -246,6 +283,27 @@ main{
  }
 
 @media screen and (max-width: 450px) {
+	#billetterie{
+		position: fixed;
+	    bottom: 0;
+	    right: 0;
+	    top: auto;
+	    width: 100%;
+	    margin: 0;r
+	    font-family: "Grotesque-bld";
+	    padding-top: 10px;
+	    z-index: 100;
+	    text-align: center;
+	    background: #025796;
+	}
+
+	#billetterie a{
+		width: 24%;
+	}
+
+	#billetterie a img {
+    	width: 48%;
+	}
 
 	section:nth-child(1) div:nth-child(1) img{
 		width: 24%;
