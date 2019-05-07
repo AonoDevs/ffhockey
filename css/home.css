@@ -85,6 +85,7 @@ ul{
 
 #billetterie a img{
 	width: 100%;
+	max-width: 100px;
 }
 
 section:nth-child(1){
